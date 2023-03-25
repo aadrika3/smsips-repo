@@ -1,4 +1,5 @@
 import logo from "./logo.svg";
+import pic_trulli from "./pic_trulli.png";
 import "./App.css";
 
 function App() {
@@ -6,7 +7,9 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>SMS IPS</p>
+        <p>
+          SMS<br></br> IPS
+        </p>
         <a
           className="App-link"
           href="https://reactjs.org"
@@ -15,6 +18,9 @@ function App() {
         >
           Learn React
         </a>
+        <br></br>
+        <br></br>
+        <img src={pic_trulli} alt="Italian Trulli"></img>
       </header>
     </div>
   );
