@@ -1,5 +1,6 @@
 import logo from "./logo.svg";
 import pic_trulli from "./pic_trulli.png";
+import pdfFile from "./pdfFile.pdf";
 import "./App.css";
 
 function App() {
@@ -20,7 +21,8 @@ function App() {
         </a>
         <br></br>
         <br></br>
-        <img src={pic_trulli} alt="Italian Trulli"></img>
+
+        <a href="./pdfFile.pdf">hello</a>
       </header>
     </div>
   );
