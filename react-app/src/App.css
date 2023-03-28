@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -20,6 +20,70 @@
 
 .App-link {
   color: #61dafb;
+} */
+
+/* App.css */
+
+/* Style for the header */
+header img {
+  height: 80px;
+  margin-right: 1rem;
 }
 
+header {
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  padding: 1rem;
+  background-color: #1a1a1a;
+  color: #fff;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2rem;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  margin-left: 2rem;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+nav a:hover {
+  border-bottom: 2px solid #fff;
+}
+
+/* Style for the main content */
+main {
+  padding: 2rem;
+}
+
+section {
+  margin-bottom: 4rem;
+}
+
+section h2 {
+  margin-top: 0;
+  font-size: 2rem;
+}
+
+/* Style for the footer */
+footer {
+  padding: 1rem;
+  background-color: #1a1a1a;
+  color: #fff;
+  text-align: center;
+}
 
