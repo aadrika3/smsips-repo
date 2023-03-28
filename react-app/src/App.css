@@ -32,8 +32,8 @@ header img {
 
 header {
   display: flex;
-  justify-content: start;
-  align-items: start;
+  justify-content: flex-start;
+  align-items: center;
   padding: 1rem;
   background-color: #1a1a1a;
   color: #fff;

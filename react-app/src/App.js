@@ -29,6 +29,7 @@ export default App; */
 import React from "react";
 import logo from "./logo.jpg";
 import "./App.css";
+import pdfFile from "./pdfFile.pdf";
 
 function App() {
   return (
@@ -42,6 +43,9 @@ function App() {
               <a href="#about">About</a>
             </li>
             <li>
+              <a href="#CBSEMandatoryDisclosure">Disclosure</a>
+            </li>
+            <li>
               <a href="#academics">Academics</a>
             </li>
             <li>
@@ -49,6 +53,9 @@ function App() {
             </li>
             <li>
               <a href="#events">Events</a>
+            </li>
+            <li>
+              <a href="#careers">Careers</a>
             </li>
             <li>
               <a href="#contact">Contact</a>
@@ -69,6 +76,12 @@ function App() {
             Our school has state-of-the-art facilities, a dedicated faculty, and
             a wide range of extracurricular activities to help students discover
             their passions and develop their talents.
+          </p>
+        </section>
+        <section id="CBSEMandatoryDisclosure">
+          <h2>CBSE Mandatory Disclosure</h2>
+          <p>
+            <a href={pdfFile}>CBSE Mandatory Disclosure PDF</a>
           </p>
         </section>
         <section id="academics">
@@ -103,6 +116,10 @@ function App() {
             competitions, there is always something exciting happening at Shri
             Maa Sharda International Public School.
           </p>
+        </section>
+        <section id="Careers">
+          <h2>Careers</h2>
+          <p>Careers</p>
         </section>
         <section id="contact">
           <h2>Contact Us</h2>
