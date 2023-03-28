@@ -1,4 +1,4 @@
-import logo from "./logo.svg";
+import logo from "./logo.jpg";
 import pdfFile from "./pdfFile.pdf";
 import "./App.css";
 
@@ -7,7 +7,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>SMSIPS</p>
+        <p>Shri Maa Sharda International Public School.</p>
         <a
           className="App-link"
           href="https://www.facebook.com/people/Shri-maa-sharda-international-public-school/100067381647049/"
