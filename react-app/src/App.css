@@ -1,89 +1,115 @@
-/* .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 20vmin;
-  pointer-events: none;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-} */
-
-/* App.css */
-
-/* Style for the header */
-header img {
-  height: 80px;
-  margin-right: 1rem;
+.App {
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 header {
   display: flex;
-  justify-content: flex-start;
+  justify-content: space-between;
   align-items: center;
-  padding: 1rem;
-  background-color: #1a1a1a;
-  color: #fff;
+  padding: 20px 0;
+  border-bottom: 1px solid #ccc;
 }
 
-header h1 {
-  margin: 0;
-  font-size: 2rem;
-}
-
-nav ul {
+.logo {
   display: flex;
-  list-style: none;
-  margin: 0;
-  padding: 0;
+  align-items: center;
 }
 
-nav li {
-  margin-left: 2rem;
-}
-
-nav a {
-  color: #fff;
-  text-decoration: none;
-  font-size: 1.2rem;
-}
-
-nav a:hover {
-  border-bottom: 2px solid #fff;
-}
-
-/* Style for the main content */
-main {
-  padding: 2rem;
-}
-
-section {
-  margin-bottom: 4rem;
-}
-
-section h2 {
-  margin-top: 0;
-  font-size: 2rem;
-}
-
-/* Style for the footer */
-footer {
-  padding: 1rem;
-  background-color: #1a1a1a;
-  color: #fff;
-  text-align: center;
-}
-
+.logo img {
+    height: 60px;
+      margin-right: 50px;
+    }
+    
+    .school-info {
+      margin-left: 20px;
+    }
+    
+    .school-info h1 {
+      margin: 0;
+      font-size: 24px;
+    }
+    
+    .school-info p {
+      margin: 0;
+      font-size: 14px;
+    }
+    
+    nav ul {
+      list-style: none;
+      display: flex;
+      justify-content: flex-end;
+    }
+    
+    nav li {
+      margin: 0 10px;
+    }
+    
+    nav li a {
+      text-decoration: none;
+      color: #333;
+    }
+    
+    nav li a:hover {
+      text-decoration: underline;
+    }
+    
+    main {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      padding: 20px;
+    }
+    
+    section {
+      flex-basis: 48%;
+      margin-bottom: 30px;
+    }
+    
+    section h2 {
+      margin-bottom: 20px;
+    }
+    
+    section table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+    
+    section table td {
+      padding: 5px;
+      border: 1px solid #ccc;
+    }
+    
+    section table td:first-child {
+      width: 50%;
+    }
+    
+    .about-image {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 20px;
+    }
+    
+    .about-image img {
+      max-width: 20.5%;
+    }
+    
+    .contact-info {
+      margin-top: 20px;
+    }
+    
+    .contact-info p {
+      margin: 10px 0;
+    }
+    
+    footer {
+      margin-top: 30px;
+      text-align: center;
+      padding: 10px;
+      border-top: 1px solid #ccc;
+    }
+    
+    footer p {
+      margin: 0;
+      font-size: 14px;
+    }
