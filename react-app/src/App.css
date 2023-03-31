@@ -127,3 +127,14 @@ footer p {
   margin: 0;
   font-size: 14px;
 }
+
+p {
+  line-height: 1.5;
+  /* Increase line height for easier readability */
+  text-align: justify;
+  /* Justify the text to improve the appearance */
+  hyphens: auto;
+  /* Enable automatic hyphenation to prevent long words from breaking layout */
+  margin-bottom: 5px;
+  /* Add some bottom margin for better spacing */
+}

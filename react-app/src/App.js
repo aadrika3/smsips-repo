@@ -205,7 +205,7 @@ function App() {
                 <td>Admissions open for playgroup to 12th grade.</td>
                 <td>
                   <a
-                    href="https://docs.google.com/forms/d/e/1FAIpQLScVbnHJwL8AlxxAKeEudFt1mc9zG3q4lPMnFRP5dHBLGk5N5w/viewform"
+                    href="https://forms.gle/oJ1oiff87eXCL8cq5"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -220,7 +220,7 @@ function App() {
                 </td>
                 <td>
                   <a
-                    href="https://docs.google.com/forms/d/e/1FAIpQLScVbnHJwL8AlxxAKeEudFt1mc9zG3q4lPMnFRP5dHBLGk5N5w/viewform"
+                    href="https://forms.gle/Mc7ZeYnnsF4nczUZ9"
                     target="_blank"
                     rel="noreferrer"
                   >
