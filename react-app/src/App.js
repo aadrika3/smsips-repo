@@ -1,29 +1,31 @@
 import React from "react";
 import logo from "./SMSIPS_logo.png";
-import aboutImage1 from "./Image_01.JPG";
-import aboutImage11 from "./Image_11.JPG";
-import aboutImage3 from "./Image_03.png";
-import aboutImage4 from "./Image_04.JPG";
-import aboutImage5 from "./Image_05.JPG";
-import aboutImage6 from "./Image_06.JPG";
-import aboutImage7 from "./Image_07.JPG";
-import aboutImage8 from "./Image_08.JPG";
-import aboutImage9 from "./Image_09.JPG";
-import aboutImage10 from "./Image_10.JPG";
+import aboutImage1 from "./Assets/Images/Image_01.JPG";
+import aboutImage11 from "./Assets/Images/Image_11.JPG";
+import aboutImage3 from "./Assets/Images/Image_03.png";
+import aboutImage4 from "./Assets/Images/Image_04.JPG";
+import aboutImage5 from "./Assets/Images/Image_05.JPG";
+import aboutImage6 from "./Assets/Images/Image_06.JPG";
+import aboutImage7 from "./Assets/Images/Image_07.JPG";
+import aboutImage8 from "./Assets/Images/Image_08.JPG";
+import aboutImage9 from "./Assets/Images/Image_09.JPG";
+import aboutImage10 from "./Assets/Images/Image_10.JPG";
 
-import pdf1 from "./Mandatory_Public_Disclosure.pdf";
-import pdf2 from "./AFFILATION_LETTER.pdf";
-import pdf3 from "./Trust Deed.pdf";
-import pdf4 from "./NOC state board.pdf";
-import pdf5 from "./Building safety certificate.pdf";
-import pdf6 from "./Fire Safety 001.pdf";
-import pdf7 from "./hearth and Sanitation  certificate.pdf";
-import pdf8 from "./Fee Structure.pdf";
-import pdf9 from "./RECOGNITION CERTIFICATE.pdf";
-import pdf10 from "./DEO CERTIFICATE.pdf";
-import pdf11 from "./ANNUAL ACADEMIC CALENDAR.pdf";
-import pdf12 from "./LIST OF SCHOOL MANAGEMENT COMMITTEE.pdf";
-import pdf13 from "./LIST OF PARENTS TEACHERS ASSOCIATION MEMBERS.pdf";
+import pdf1 from "./Assets/Documents/Mandatory_Public_Disclosure.pdf";
+import pdf2 from "./Assets/Documents/AFFILATION_LETTER.pdf";
+import pdf3 from "./Assets/Documents/Trust Deed.pdf";
+import pdf4 from "./Assets/Documents/NOC state board.pdf";
+import pdf9 from "./Assets/Documents/RECOGNITION CERTIFICATE.pdf";
+import pdf5 from "./Assets/Documents/Building safety certificate.pdf";
+import pdf6 from "./Assets/Documents/Fire Safety 001.pdf";
+import pdf10 from "./Assets/Documents/DEO CERTIFICATE.pdf";
+import pdf7 from "./Assets/Documents/hearth and Sanitation  certificate.pdf";
+
+import pdf8 from "./Assets/Documents/Fee Structure.pdf";
+import pdf11 from "./Assets/Documents/ANNUAL ACADEMIC CALENDAR.pdf";
+import pdf12 from "./Assets/Documents/LIST OF SCHOOL MANAGEMENT COMMITTEE.pdf";
+import pdf13 from "./Assets/Documents/LIST OF PARENTS TEACHERS ASSOCIATION MEMBERS.pdf";
+import pdf14 from "./Assets/Documents/Board Examination Result.pdf";
 
 import "./App.css";
 
@@ -214,6 +216,14 @@ function App() {
                 <td>
                   <a href={pdf13} target="_blank" rel="noreferrer">
                     pta_smsips
+                  </a>
+                </td>
+              </tr>
+              <tr>
+                <td>LAST THREE-YEAR RESULT OF THE BOARD EXAMINATION</td>
+                <td>
+                  <a href={pdf14} target="_blank" rel="noreferrer">
+                    X_board_result_smsips
                   </a>
                 </td>
               </tr>
