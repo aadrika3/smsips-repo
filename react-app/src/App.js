@@ -183,7 +183,7 @@ function App() {
               UTTAR PRADESH, JALAUN, 285201
             </p>
             <p>
-              <strong>Email ID:</strong> smsipsb@gmail.com
+              <strong>Email ID:</strong> connect@smsips.com
             </p>
             <p>
               <strong>Contact Number:</strong> +91-8962560564 / +91-8765550925
