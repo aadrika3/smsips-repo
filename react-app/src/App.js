@@ -19,6 +19,11 @@ import pdf5 from "./Building safety certificate.pdf";
 import pdf6 from "./Fire Safety 001.pdf";
 import pdf7 from "./hearth and Sanitation  certificate.pdf";
 import pdf8 from "./Fee Structure.pdf";
+import pdf9 from "./RECOGNITION CERTIFICATE.pdf";
+import pdf10 from "./DEO CERTIFICATE.pdf";
+import pdf11 from "./ANNUAL ACADEMIC CALENDAR.pdf";
+import pdf12 from "./LIST OF SCHOOL MANAGEMENT COMMITTEE.pdf";
+import pdf13 from "./LIST OF PARENTS TEACHERS ASSOCIATION MEMBERS.pdf";
 
 import "./App.css";
 
@@ -107,7 +112,7 @@ function App() {
                 <td>SMSIPS Mandatory Public Disclosure</td>
                 <td>
                   <a href={pdf1} target="_blank" rel="noreferrer">
-                    Mandatory Public Disclosure
+                    mandatory_public_disclosure_smsips
                   </a>
                 </td>
               </tr>
@@ -115,7 +120,7 @@ function App() {
                 <td>AFFILIATION/UPGRADATION LETTER</td>
                 <td>
                   <a href={pdf2} target="_blank" rel="noreferrer">
-                    AFFILATION LETTER
+                    affiliation_letter_smsips
                   </a>
                 </td>
               </tr>
@@ -125,7 +130,7 @@ function App() {
                 </td>
                 <td>
                   <a href={pdf3} target="_blank" rel="noreferrer">
-                    Trust Deed
+                    trust_deed_smsips
                   </a>
                 </td>
               </tr>
@@ -133,7 +138,15 @@ function App() {
                 <td>NO OBJECTION CERTIFICATE - NOC</td>
                 <td>
                   <a href={pdf4} target="_blank" rel="noreferrer">
-                    NOC state board
+                    noc_state_board_smsips
+                  </a>
+                </td>
+              </tr>
+              <tr>
+                <td>RECOGNITION CERTIFICATE</td>
+                <td>
+                  <a href={pdf9} target="_blank" rel="noreferrer">
+                    rocognition_certificate_smsips
                   </a>
                 </td>
               </tr>
@@ -141,7 +154,18 @@ function App() {
                 <td>BUILDING SAFETY CERTIFICATE</td>
                 <td>
                   <a href={pdf5} target="_blank" rel="noreferrer">
-                    Building Safety certificate
+                    building_safety_certificate_smsips
+                  </a>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  DEO CERTIFICATE SUBMITTED BY THE SCHOOL FOR
+                  AFFILIATION/UPGRADATION/EXTENSION{" "}
+                </td>
+                <td>
+                  <a href={pdf10} target="_blank" rel="noreferrer">
+                    deo_certificate_smsips
                   </a>
                 </td>
               </tr>
@@ -149,7 +173,7 @@ function App() {
                 <td>FIRE SAFETY CERTIFICATE</td>
                 <td>
                   <a href={pdf6} target="_blank" rel="noreferrer">
-                    Fire Safety certificate
+                    fire_safety_certificate_smsips
                   </a>
                 </td>
               </tr>
@@ -157,7 +181,7 @@ function App() {
                 <td>WATER, HEALTH AND SANITATION CERTIFICATE</td>
                 <td>
                   <a href={pdf7} target="_blank" rel="noreferrer">
-                    Health and Sanitation certificate
+                    health&Sanitation_certificate_smsips
                   </a>
                 </td>
               </tr>
@@ -165,7 +189,31 @@ function App() {
                 <td>School Fee Structure</td>
                 <td>
                   <a href={pdf8} target="_blank" rel="noreferrer">
-                    Fee Structure
+                    fee_structure_smsips
+                  </a>
+                </td>
+              </tr>
+              <tr>
+                <td>ANNUAL ACADEMIC CALENDAR</td>
+                <td>
+                  <a href={pdf11} target="_blank" rel="noreferrer">
+                    annual_academic_calender_smsips
+                  </a>
+                </td>
+              </tr>
+              <tr>
+                <td>LIST OF SCHOOL MANAGEMENT COMMITTEE</td>
+                <td>
+                  <a href={pdf12} target="_blank" rel="noreferrer">
+                    smc_smsips
+                  </a>
+                </td>
+              </tr>
+              <tr>
+                <td>LIST OF PARENTS TEACHERS ASSOCIATION MEMBERS</td>
+                <td>
+                  <a href={pdf13} target="_blank" rel="noreferrer">
+                    pta_smsips
                   </a>
                 </td>
               </tr>
