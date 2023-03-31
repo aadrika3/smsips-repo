@@ -1,14 +1,23 @@
+/* Set the background color for the entire website */
+body {
+  background-color: #ffffff;
+}
+
 .App {
-  max-width: 1200px;
+  max-width: 1500px;
   margin: 0 auto;
+  background-color: #fff;
+  /* Set the background color for the main container */
 }
 
 header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px 0;
-  border-bottom: 1px solid #ccc;
+  padding: 10px 0;
+  border-bottom: 3px solid #ccc;
+  background-color: #ffffff;
+  /* Set the background color for the header */
 }
 
 .logo {
@@ -17,99 +26,104 @@ header {
 }
 
 .logo img {
-    height: 60px;
-      margin-right: 50px;
-    }
-    
-    .school-info {
-      margin-left: 20px;
-    }
-    
-    .school-info h1 {
-      margin: 0;
-      font-size: 24px;
-    }
-    
-    .school-info p {
-      margin: 0;
-      font-size: 14px;
-    }
-    
-    nav ul {
-      list-style: none;
-      display: flex;
-      justify-content: flex-end;
-    }
-    
-    nav li {
-      margin: 0 10px;
-    }
-    
-    nav li a {
-      text-decoration: none;
-      color: #333;
-    }
-    
-    nav li a:hover {
-      text-decoration: underline;
-    }
-    
-    main {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: space-between;
-      padding: 20px;
-    }
-    
-    section {
-      flex-basis: 48%;
-      margin-bottom: 30px;
-    }
-    
-    section h2 {
-      margin-bottom: 20px;
-    }
-    
-    section table {
-      width: 100%;
-      border-collapse: collapse;
-    }
-    
-    section table td {
-      padding: 5px;
-      border: 1px solid #ccc;
-    }
-    
-    section table td:first-child {
-      width: 50%;
-    }
-    
-    .about-image {
-      display: flex;
-      justify-content: space-between;
-      margin-top: 20px;
-    }
-    
-    .about-image img {
-      max-width: 20.5%;
-    }
-    
-    .contact-info {
-      margin-top: 20px;
-    }
-    
-    .contact-info p {
-      margin: 10px 0;
-    }
-    
-    footer {
-      margin-top: 30px;
-      text-align: center;
-      padding: 10px;
-      border-top: 1px solid #ccc;
-    }
-    
-    footer p {
-      margin: 0;
-      font-size: 14px;
-    }
+  height: 90px;
+  margin-right: 1px;
+  margin-left: 5px;
+}
+
+.school-info {
+  margin-left: 20px;
+}
+
+.school-info h1 {
+  margin: 0;
+  font-size: 40px;
+}
+
+.school-info p {
+  margin: 0;
+  font-size: 20px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+}
+
+nav li {
+  margin: 0 10px;
+}
+
+nav li a {
+  text-decoration: none;
+  color: #160202;
+}
+
+nav li a:hover {
+  text-decoration: underline;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #ffffff;
+  /* Set the background color for the main content area */
+}
+
+section {
+  flex-basis: 48%;
+  margin-bottom: 30px;
+}
+
+section h2 {
+  margin-bottom: 20px;
+}
+
+section table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+section table td {
+  padding: 9px;
+  border: 2px solid #d4b5b5;
+}
+
+section table td:first-child {
+  width: 50%;
+}
+
+.about-image {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.about-image img {
+  max-width: 20%;
+}
+
+.contact-info {
+  margin-top: 20px;
+}
+
+.contact-info p {
+  margin: 10px 0;
+}
+
+footer {
+  margin-top: 30px;
+  text-align: center;
+  padding: 10px;
+  border-top: 1px solid #ccc;
+  background-color: #fff;
+  /* Set the background color for the footer */
+}
+
+footer p {
+  margin: 0;
+  font-size: 14px;
+}

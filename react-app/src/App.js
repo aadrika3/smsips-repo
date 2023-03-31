@@ -44,10 +44,10 @@ function App() {
               <a href="#cbse">CBSE Mandatory Disclosure</a>
             </li>
             <li>
-              <a href="#admissions">Admissions</a>
+              <a href="#contact">Contact Us</a>
             </li>
             <li>
-              <a href="#contact">Contact Us</a>
+              <a href="#admissions">Apply Now</a>
             </li>
           </ul>
         </nav>
@@ -104,7 +104,7 @@ function App() {
           <table>
             <tbody>
               <tr>
-                <td>Some content</td>
+                <td>SMSIPS Mandatory Public Disclosure</td>
                 <td>
                   <a href={pdf1} target="_blank" rel="noreferrer">
                     Mandatory Public Disclosure
@@ -112,7 +112,7 @@ function App() {
                 </td>
               </tr>
               <tr>
-                <td>Some content</td>
+                <td>AFFILIATION/UPGRADATION LETTER</td>
                 <td>
                   <a href={pdf2} target="_blank" rel="noreferrer">
                     AFFILATION LETTER
@@ -120,7 +120,9 @@ function App() {
                 </td>
               </tr>
               <tr>
-                <td>Some content</td>
+                <td>
+                  SOCIETIES/TRUST/COMPANY REGISTRATION/RENEWAL CERTIFICATE
+                </td>
                 <td>
                   <a href={pdf3} target="_blank" rel="noreferrer">
                     Trust Deed
@@ -128,7 +130,7 @@ function App() {
                 </td>
               </tr>
               <tr>
-                <td>Some content</td>
+                <td>NO OBJECTION CERTIFICATE - NOC</td>
                 <td>
                   <a href={pdf4} target="_blank" rel="noreferrer">
                     NOC state board
@@ -136,7 +138,7 @@ function App() {
                 </td>
               </tr>
               <tr>
-                <td>Some content</td>
+                <td>BUILDING SAFETY CERTIFICATE</td>
                 <td>
                   <a href={pdf5} target="_blank" rel="noreferrer">
                     Building Safety certificate
@@ -144,7 +146,7 @@ function App() {
                 </td>
               </tr>
               <tr>
-                <td>Some content</td>
+                <td>FIRE SAFETY CERTIFICATE</td>
                 <td>
                   <a href={pdf6} target="_blank" rel="noreferrer">
                     Fire Safety certificate
@@ -152,7 +154,7 @@ function App() {
                 </td>
               </tr>
               <tr>
-                <td>Some content</td>
+                <td>WATER, HEALTH AND SANITATION CERTIFICATE</td>
                 <td>
                   <a href={pdf7} target="_blank" rel="noreferrer">
                     Health and Sanitation certificate
@@ -160,7 +162,7 @@ function App() {
                 </td>
               </tr>
               <tr>
-                <td>Some content</td>
+                <td>School Fee Structure</td>
                 <td>
                   <a href={pdf8} target="_blank" rel="noreferrer">
                     Fee Structure
@@ -184,9 +186,50 @@ function App() {
               <strong>Email ID:</strong> smsipsb@gmail.com
             </p>
             <p>
-              <strong>Contact Number:</strong> 8962560564 / 8765550925
+              <strong>Contact Number:</strong> +91-8962560564 / +91-8765550925
             </p>
           </div>
+        </section>
+        <section id="admissions">
+          <h2>Admissions and Job Application</h2>
+          <p>
+            To apply for school admission or a job at our campus - Teaching,
+            Management and Other staff, please fill out and submit the Google
+            Form, or contact us directly using the information provided. For
+            more information about our admission and job application process, we
+            invite you to visit our campus.
+          </p>
+          <table>
+            <tbody>
+              <tr>
+                <td>Admissions open for playgroup to 12th grade.</td>
+                <td>
+                  <a
+                    href="https://docs.google.com/forms/d/e/1FAIpQLScVbnHJwL8AlxxAKeEudFt1mc9zG3q4lPMnFRP5dHBLGk5N5w/viewform"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    School Admission Google Form Link
+                  </a>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  Job vacancies available for teaching, management, and ground
+                  staff.
+                </td>
+                <td>
+                  <a
+                    href="https://docs.google.com/forms/d/e/1FAIpQLScVbnHJwL8AlxxAKeEudFt1mc9zG3q4lPMnFRP5dHBLGk5N5w/viewform"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    Job Application Google Form Link
+                  </a>
+                </td>
+              </tr>
+            </tbody>
+          </table>
         </section>
       </main>
       <footer>
