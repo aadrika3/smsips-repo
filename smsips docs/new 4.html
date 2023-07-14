@@ -1,0 +1,74 @@
+/* App.js */
+
+import React from "react";
+import logo from "./logo.jpg";
+import "./App.css";
+
+function App() {
+  return (
+    <div className="app-container">
+      <header className="header">
+        <img src={logo} alt="School Logo" className="logo" />
+        <div className="header-text">
+          <h1 className="header-title">
+            Shri Maa Sharda International Public School
+          </h1>
+          <p className="header-subtitle">Affiliated with CBSE New Delhi, </p>
+        </div>
+      </header>
+      <nav className="nav-menu">
+        <ul className="nav-list">
+          <li className="nav-item">
+            <a href="#">Home</a>
+          </li>
+          <li className="nav-item">
+            <a href="#">About Us</a>
+          </li>
+          <li className="nav-item">
+            <a href="#">CBSE Mandatory Disclosure</a>
+          </li>
+          <li className="nav-item">
+            <a href="#">Admissions</a>
+          </li>
+          <li className="nav-item">
+            <a href="#">Careers</a>
+          </li>
+          <li className="nav-item">
+            <a href="#">Contact Us</a>
+          </li>
+        </ul>
+      </nav>
+      <main className="main-content">
+        <section className="welcome-section">
+          <h2 className="section-title">Welcome to Our School</h2>
+          <p className="section-text">
+            Shri Maa Sharda International Public School is a premier CBSE
+            affiliated school located in the heart of the city. We offer a
+            comprehensive curriculum and a nurturing environment that fosters
+            academic excellence and character development. Our dedicated faculty
+            and staff work tirelessly to ensure that every student receives a
+            quality education that prepares them for success in the 21st
+            century.
+          </p>
+        </section>
+        <section className="cta-section">
+          <h2 className="section-title">Apply for Admission</h2>
+          <p className="section-text">
+            Are you ready to join our school? We are currently accepting
+            applications for the upcoming academic year. Click the button below
+            to get started!
+          </p>
+          <button className="cta-button">Apply Now</button>
+        </section>
+      </main>
+      <footer className="footer">
+        <p className="footer-text">
+          © 2023 Shri Maa Sharda International Public School. All rights
+          reserved.
+        </p>
+      </footer>
+    </div>
+  );
+}
+
+export default App;
